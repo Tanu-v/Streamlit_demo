@@ -9,7 +9,7 @@ st.info("These places are according to my choices, there are still many places i
 
 st.sidebar.title("11 Interesting Places")
 st.sidebar.subheader("It's my personal Choices")
-place = st.sidebar.radio("Choose a place: ", ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"])
+place = st.sidebar.radio("Choose a place: ", ["Login","1", "2", "3", "4", "5", "6", "7", "8", "9"])
 
 # Place 2
 #if place == "2":
@@ -84,7 +84,7 @@ elif place == "8":
     st.map(md7, size=744, color="#183FDA")
 
 # page 0
-elif place == "0":
+elif place == "Login":
     username = st.text_input("Username: ", max_chars=15)
     st.write(" your entered username is :", username)
     password = st.text_input("Password: ", max_chars=15, type="password")
@@ -101,7 +101,7 @@ elif place == "9":
     st.map(md8, size=744, color="#BC1611")
 
 # Place 10
-elif place == "10":
+elif place == "1":
     st.header("Kerla")
     st.image("images/851772-2000x1333-desktop-hd-kerala-wallpaper-photo.webp")
     st.subheader("About")
@@ -111,7 +111,7 @@ elif place == "10":
     st.map(md9, size=744, color="#183FDA")
 
 # Place 1
-elif place == "1":
+elif place == "2":
     st.header("Meghalaya")
     st.image("images/03y8iuhdyqpwl1wy7r0nmxo86c9w_Krang_Suri_Waterfall_(6).webp")
     st.subheader("About")
