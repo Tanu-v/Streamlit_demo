@@ -18,7 +18,7 @@ place = st.sidebar.radio("Choose a place: ",["0","1","2","3","4","5","6","7","8"
 # Place 2
 if place == "2":
     st.header("Adiyogi Shiva")
-    st.image("C:\Users\TANU\Downloads\gettyimages-1066143570-612x612.jpg")
+    st.image(r"C:\Users\TANU\Downloads\gettyimages-1066143570-612x612.jpg")
     st.subheader("About")
     st.info("About the place : The Adiyogi Shiva bust is a 34-metre-tall (112 ft), 45-metre-long (147 ft) and 25-metre-wide (82 ft) steel bust of Shiva with Thirunamam at Coimbatore, Tamil Nadu. It is recognized by the Guinness World Records as the Largest Bust Sculpture” in the world.[1][2] Designed by Sadhguru, the founder and head of the Isha Foundation, the statue weighs around 500 tonnes (490 long tons; 550 short tons).Adiyogi refers to Shiva as the first yogi.[4] It was established to inspire people towards inner well-being through yoga.")
     st.subheader("Location in map")
