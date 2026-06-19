@@ -3,27 +3,27 @@ import pandas as pd
 import numpy as np
 
 # Homework 11 : 11 places with Location in map
-st.title("11 Interesting Places In India to visit")
+st.title("9 Interesting Places In India to visit")
 st.subheader("Want to go then first scroll through this site...")
 st.info("These places are according to my choices, there are still many places in India that are beautiful, mesmerizing and adventurous!!")
 
 st.sidebar.title("11 Interesting Places")
 st.sidebar.subheader("It's my personal Choices")
-place = st.sidebar.radio("Choose a place: ", ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"])
+place = st.sidebar.radio("Choose a place: ", ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"])
 
 # Place 2
-if place == "2":
-    st.header("Adiyogi Shiva")
+#if place == "2":
+   # st.header("Adiyogi Shiva")
     # CHANGED: Local absolute path changed to relative path
-    st.image("images/gettyimages-1066143570-612x612.jpg")
-    st.subheader("About")
-    st.info("About the place : The Adiyogi Shiva bust is a 34-metre-tall (112 ft)...")
-    st.subheader("Location in map")
-    md1 = pd.DataFrame(np.random.randn(1, 2) / [50, 50] + [10.972270147042348, 76.7407714296481], columns=["lat", "lon"])
-    st.map(md1, size=744, color="#183FDA")
+    #st.image("images/gettyimages-1066143570-612x612.jpg")
+  #  st.subheader("About")
+  #  st.info("About the place : The Adiyogi Shiva bust is a 34-metre-tall (112 ft)...")
+   # st.subheader("Location in map")
+  #  md1 = pd.DataFrame(np.random.randn(1, 2) / [50, 50] + [10.972270147042348, 76.7407714296481], columns=["lat", "lon"])
+  #  st.map(md1, size=744, color="#183FDA")
 
 # Place 3
-elif place == "3":
+if place == "3":
     st.header("Chittorgarh")
     # CHANGED: Local absolute path changed to relative path
     st.image("images/india-rajasthan-chittorgarh-fort.webp")
