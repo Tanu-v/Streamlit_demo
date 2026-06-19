@@ -7,7 +7,7 @@ st.title("9 Interesting Places In India to visit")
 st.subheader("Want to go then first scroll through this site...")
 st.info("These places are according to my choices, there are still many places in India that are beautiful, mesmerizing and adventurous!!")
 
-st.sidebar.title("11 Interesting Places")
+st.sidebar.title("9 Interesting Places")
 st.sidebar.subheader("It's my personal Choices")
 place = st.sidebar.radio("Choose a place: ", ["Login","1", "2", "3", "4", "5", "6", "7", "8", "9"])
 
